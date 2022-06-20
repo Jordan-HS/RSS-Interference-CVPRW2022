@@ -28,8 +28,8 @@ from ofa.utils import MyRandomResizedCrop
 
 parser = argparse.ArgumentParser()
 args = parser.parse_args()
-args.path = 'Trained_Networks/CIFAR100/PyTorch/OFA-Proxyless'
-args.task = 'expand'
+args.path = 'Trained_Networks/RSS-Net'
+args.task = 'RSS'
 args.phase = 2
 base_epochs = 180
 base_learning_rate = 0.01
